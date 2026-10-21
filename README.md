@@ -15,4 +15,7 @@ CivicSafety v0.1.1 is pinned to `civiccore==0.3.0`.
 
 Optional workpaper persistence is available with `CIVICSAFETY_WORKPAPER_DB_URL`. Set it to a SQLAlchemy database URL to store generated non-CJI training checklists and PIO drafts for later supervisor/PIO review. If unset, POST endpoints remain stateless and retrieval endpoints return an actionable setup message.
 
-Apache 2.0 code. CC BY 4.0 docs.
+## License
+
+Code: AGPL-3.0-only, with the TownLight Public Institution Exception for qualifying deployments. See [LICENSE](LICENSE) and [LICENSE-EXCEPTION.md](LICENSE-EXCEPTION.md).
+Documentation: CC BY 4.0 ([LICENSE-DOCS](LICENSE-DOCS)).
