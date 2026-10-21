@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "civicsafety"
 version = "0.1.1"
-description = "CivicSafety foundation for non-CJIS public-safety administrative support."
+description = "Townlight Safety foundation for non-CJIS public-safety administrative support."
 readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "AGPL-3.0-only" }

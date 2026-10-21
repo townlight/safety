@@ -1,4 +1,4 @@
-"""FastAPI runtime foundation for CivicSafety."""
+"""FastAPI runtime foundation for Townlight Safety."""
 
 import os
 
@@ -16,9 +16,9 @@ from civicsafety.stats import PublicSafetyStatistic, summarize_public_statistics
 from civicsafety.training import build_training_checklist
 
 app = FastAPI(
-    title="CivicSafety",
+    title='Townlight Safety',
     version=__version__,
-    description="Non-CJIS public-safety administrative support foundation for CivicSuite.",
+    description='Non-CJIS public-safety administrative support foundation for Townlight.',
 )
 
 _workpaper_repository: SafetyWorkpaperRepository | None = None
@@ -66,7 +66,7 @@ def root() -> dict[str, str]:
         "version": __version__,
         "status": "non-CJIS public-safety admin foundation",
         "message": (
-            "CivicSafety policy/SOP Q&A, non-CJI training checklists, PIO draft support, "
+            "Townlight Safety policy/SOP Q&A, non-CJI training checklists, PIO draft support, "
             "aggregate public statistics, optional database-backed training/PIO workpapers, "
             "and public UI foundation are online; CJI ingestion, "
             "CAD/RMS integration, dispatch, enforcement, investigations, evidence workflows, "
@@ -121,7 +121,7 @@ def get_training_checklist(checklist_id: str) -> dict[str, object]:
         raise HTTPException(
             status_code=503,
             detail={
-                "message": "CivicSafety workpaper persistence is not configured.",
+                "message": "Townlight Safety workpaper persistence is not configured.",
                 "fix": "Set CIVICSAFETY_WORKPAPER_DB_URL to retrieve persisted training checklists.",
             },
         )
@@ -154,7 +154,7 @@ def get_pio_draft(draft_id: str) -> dict[str, object]:
         raise HTTPException(
             status_code=503,
             detail={
-                "message": "CivicSafety workpaper persistence is not configured.",
+                "message": "Townlight Safety workpaper persistence is not configured.",
                 "fix": "Set CIVICSAFETY_WORKPAPER_DB_URL to retrieve persisted PIO drafts.",
             },
         )

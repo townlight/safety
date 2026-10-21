@@ -26,7 +26,7 @@ def test_health_reports_civiccore_pin():
 
 def test_public_ui_contains_version_boundaries_and_dependency():
     text = client.get("/civicsafety").text
-    assert "CivicSafety v0.1.1" in text
+    assert "Townlight Safety v0.1.1" in text
     assert "No CJI ingestion" in text
     assert "civiccore==0.3.0" in text
 

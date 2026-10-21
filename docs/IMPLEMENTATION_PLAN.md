@@ -1,4 +1,6 @@
-# CivicSafety Implementation Plan
+<a id="civicsafety-implementation-plan"></a>
+
+# Townlight Safety Implementation Plan
 
 ## v0.1.0
 
@@ -14,4 +16,4 @@ Ship the runtime foundation only:
 - Isolated deployment profile.
 - CJIS-gated adapter design.
 - Supervisor and PIO review queue.
-- Optional local LLM prompt layer through CivicCore.
+- Optional local LLM prompt layer through Townlight Core.

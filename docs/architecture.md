@@ -1,8 +1,10 @@
-# CivicSafety Architecture
+<a id="civicsafety-architecture"></a>
 
-CivicSafety v0.1.0 is a deterministic FastAPI module over CivicCore. It provides non-CJIS public-safety administrative support while explicitly avoiding CAD/RMS integration, dispatch, enforcement, investigations, evidence workflows, and other high-risk decision surfaces.
+# Townlight Safety Architecture
 
-![CivicSafety architecture](architecture-civicsafety.svg)
+Townlight Safety v0.1.0 is a deterministic FastAPI module over Townlight Core. It provides non-CJIS public-safety administrative support while explicitly avoiding CAD/RMS integration, dispatch, enforcement, investigations, evidence workflows, and other high-risk decision surfaces.
+
+![Townlight Safety architecture](architecture-civicsafety.svg)
 
 ## Shipped
 

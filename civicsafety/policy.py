@@ -1,4 +1,4 @@
-"""Non-CJIS policy and SOP Q&A helpers for CivicSafety."""
+"""Non-CJIS policy and SOP Q&A helpers for Townlight Safety."""
 
 from dataclasses import dataclass
 
@@ -36,7 +36,7 @@ def answer_policy_question(
         supervisor_review_required=True,
         cji_blocked=blocked,
         boundary=(
-            "CivicSafety supports non-CJIS administrative policy work only. It does not ingest "
+            "Townlight Safety supports non-CJIS administrative policy work only. It does not ingest "
             "CJI, connect to CAD/RMS, support dispatch, investigate cases, or drive enforcement."
         ),
     )
