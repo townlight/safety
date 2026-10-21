@@ -1,4 +1,4 @@
-"""HTML landing surface for the CivicSafety runtime."""
+"""HTML landing surface for the Townlight Safety runtime."""
 
 
 def render_public_lookup_page() -> str:
@@ -8,7 +8,7 @@ def render_public_lookup_page() -> str:
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" href="data:,">
-  <title>CivicSafety v0.1.1</title>
+  <title>Townlight Safety v0.1.1</title>
   <style>
     :root{--ink:#13211d;--muted:#52625d;--line:#cfe1d8;--paper:#f7fbf8;--card:#ffffff;--accent:#0b6b4f;--gold:#c78618}
     *{box-sizing:border-box}body{margin:0;font-family:Georgia,'Times New Roman',serif;background:radial-gradient(circle at top left,#dff2e8,transparent 32rem),linear-gradient(135deg,#fbfff9,#eef7f1);color:var(--ink)}
@@ -24,9 +24,9 @@ def render_public_lookup_page() -> str:
 <main>
   <section class="hero">
     <div>
-      <p class="eyebrow">CivicSuite / CivicSafety</p>
+      <p class="eyebrow">Townlight / Townlight Safety</p>
       <h1>Non-CJIS public-safety admin support.</h1>
-      <p>CivicSafety v0.1.1 helps public-safety administrative staff answer SOP questions with citations, prepare non-CJI training checklists, draft PIO updates, and summarize aggregate public statistics.</p>
+      <p>Townlight Safety v0.1.1 helps public-safety administrative staff answer SOP questions with citations, prepare non-CJI training checklists, draft PIO updates, and summarize aggregate public statistics.</p>
     </div>
     <div class="panel">
       <h2>v0.1.1 boundary</h2>
@@ -40,8 +40,8 @@ def render_public_lookup_page() -> str:
   </section>
   <section class="panel">
     <h2>Architecture</h2>
-    <p><strong>Staff request</strong> -> CivicSafety deterministic API -> CivicCore foundation. Sensitive public-safety connectors are future isolated adapters, not v0.1.1 paths.</p>
-    <p>Dependency: <code>civiccore==0.3.0</code>. Repo: <a href="https://github.com/CivicSuite/civicsafety">CivicSuite/civicsafety</a>.</p>
+    <p><strong>Staff request</strong> -> Townlight Safety deterministic API -> Townlight Core foundation. Sensitive public-safety connectors are future isolated adapters, not v0.1.1 paths.</p>
+    <p>Dependency: <code>civiccore==0.3.0</code>. Repo: <a href="https://github.com/townlight/safety">CivicSuite/civicsafety</a>.</p>
   </section>
 </main>
 </body>

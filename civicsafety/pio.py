@@ -19,7 +19,7 @@ def draft_public_information_update(topic: str, facts: list[str]) -> PioDraft:
         citations=("Public Information Office review checklist",),
         public_information_officer_review_required=True,
         boundary=(
-            "Draft only: CivicSafety does not publish, advocate, investigate, disclose CJI, "
+            "Draft only: Townlight Safety does not publish, advocate, investigate, disclose CJI, "
             "or replace official PIO approval."
         ),
     )

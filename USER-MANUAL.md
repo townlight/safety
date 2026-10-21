@@ -1,10 +1,12 @@
-# CivicSafety User Manual
+<a id="civicsafety-user-manual"></a>
+
+# Townlight Safety User Manual
 
 ## Non-Technical Staff
 
-CivicSafety helps public-safety administrative staff prepare cited non-CJIS policy/SOP answers, build training checklists, draft PIO updates, summarize aggregate public statistics, and optionally save training/PIO workpapers for later supervisor review.
+Townlight Safety helps public-safety administrative staff prepare cited non-CJIS policy/SOP answers, build training checklists, draft PIO updates, summarize aggregate public statistics, and optionally save training/PIO workpapers for later supervisor review.
 
-Supervisors and PIO staff remain responsible for every answer, checklist, statistic, and public draft. CivicSafety does not ingest CJI, connect to CAD/RMS, support dispatch, investigate cases, drive enforcement, manage evidence, provide legal advice, or replace public-safety systems of record.
+Supervisors and PIO staff remain responsible for every answer, checklist, statistic, and public draft. Townlight Safety does not ingest CJI, connect to CAD/RMS, support dispatch, investigate cases, drive enforcement, manage evidence, provide legal advice, or replace public-safety systems of record.
 
 ## IT / Technical
 
@@ -19,7 +21,7 @@ Runtime dependency: `civiccore==0.3.0`.
 
 Primary endpoints:
 
-- `GET /health` - service and CivicCore version.
+- `GET /health` - service and Townlight Core version.
 - `GET /civicsafety` - public sample UI.
 - `POST /api/v1/civicsafety/policy-answer` - cited non-CJIS policy/SOP answer draft.
 - `POST /api/v1/civicsafety/training-checklist` - supervisor-reviewed training checklist.
@@ -32,6 +34,6 @@ Optional persistence is controlled by `CIVICSAFETY_WORKPAPER_DB_URL`. Store only
 
 ## Architecture
 
-![CivicSafety architecture](docs/architecture-civicsafety.svg)
+![Townlight Safety architecture](docs/architecture-civicsafety.svg)
 
-CivicSafety is a module on top of CivicCore. v0.1.1 is deterministic and local with optional workpaper persistence: no CJI ingestion, CAD/RMS integration, dispatch, enforcement, investigations, evidence workflows, legal advice, live LLM calls, or connector runtime is shipped.
+Townlight Safety is a module on top of Townlight Core. v0.1.1 is deterministic and local with optional workpaper persistence: no CJI ingestion, CAD/RMS integration, dispatch, enforcement, investigations, evidence workflows, legal advice, live LLM calls, or connector runtime is shipped.
